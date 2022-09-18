@@ -1,0 +1,42 @@
+        #block3
+        {
+            /* background-color: red; */
+            
+            
+        }
+        .myBlockMargin
+        {
+            padding-bottom: 8%;
+            /* background-color: red; */
+        }
+        .theme3
+        {
+            padding: 80px;
+            padding-bottom: 30px;
+            color: #095953;
+            font-family: Fira Sans !important;
+            font-weight: bold;
+            font-size: 210%;
+            text-align: center;
+        }
+        .block3Images
+        {
+            /* background-color: red; */
+            width: 85%;
+            min-width: 224px;
+        }
+        .block3CardThemes
+        {
+            font-size: 80%; 
+            color: #095953;
+            font-family: Fira Sans !important;
+            font-weight: bold;
+            font-size: 210%;
+            padding-top: 20px;           
+        }
+        .block3Sub-theme
+        {
+            color: #547B78;
+            font-size: 92%;
+            font-weight: bold;
+        }

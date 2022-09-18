@@ -1,0 +1,395 @@
+body
+        {
+            margin: 0;
+            padding: 0;
+            width: auto;
+        }
+        .main-container
+        {
+            width: auto;
+            height: auto;
+            background-color: white;
+        }
+        ul.no-bullets 
+        {
+            list-style-type: none;
+            color: #44807C;
+        }
+        #wrapper-1
+        {
+            /* margin-top:0 !important;
+            padding-top: 0 !important; */
+            background-color: #dcdcdc;
+            height: auto;
+            width: 100%;
+            text-align: center;
+        }
+        .theme
+        {
+            color: #0B423E;
+            font-family: Fira Sans !important;
+            font-weight: bold;
+            font-size: 210%;
+            margin-top: 30px;
+        }
+       .sub-theme
+        {
+            margin-right: 20px;
+            margin-left: 20px;
+            color: #547B78;
+            font-family: Poppins;
+            
+        }
+        
+        button
+        {
+            background-color: #095953;
+            width: auto;
+            height: 30%;
+            border-radius: 3px;
+            color: #FFFFFF !important;
+            font-family: Fira Sans;
+            font-weight: 300;
+            margin-top: 15px;
+        }
+
+        
+        @media screen and (max-width: 600px) and (min-width: 360px)
+        {
+            .theme
+            {
+                /* background-color: black; */
+                font-size: 160%;
+            }
+            .sub-theme
+            {
+                font-size: 60%;
+                font-weight: bold;
+                margin-right: 75px;
+                margin-left: 75px;
+            }
+            button
+            {
+                width:auto;
+                height: 30%;
+                background-color: #095953;
+                color: white !important;
+                margin: 15px !important;
+                position: relative;
+                top: -30px;
+            }
+        
+            #wrapper-1Image
+            {
+                margin-left: 25%;
+                margin-right: 25%;
+                margin-top: 5%;
+                width: 65%;
+                position: relative;
+                left: -25px;
+                top: -75px;
+
+            }
+            .block2Cards
+            {
+                padding-left: 105px !important;
+            }
+            .block3CardThemes
+            {
+                font-size: 80%; 
+                color: #095953;
+                font-family: Fira Sans !important;
+                font-weight: bold !important;
+                font-size: 110% !important;
+            }
+            .block3Sub-theme
+            {
+                /* background-color: red; */
+                color: #547B78;
+                position: relative;
+                top: -8px;
+                font-family: Poppins;
+                font-size: 80%;
+               
+            }
+            .block3Images
+            {
+                width:105%;
+               height: 250px;
+                position: relative;
+                /* top: 10px; */
+                /* left: 20px; */
+            }
+            
+            
+        }
+        @media screen and (max-width: 544px) and (min-width: 360px)
+        {
+            #leapButton
+            {
+                /* background-color: red; */
+                position: relative;
+                left: 160px;
+            }
+
+        }
+
+        @media(max-width: 600px) and (min-width: 545px)
+        {
+            #leapButton
+            {
+                width: max-content;
+                position: relative;
+                left: 180px;
+                display:flex;
+                align-items:center;
+                justify-content:center;
+                /* background-color: black; */
+            }
+        }
+        @media screen and (max-width: 767px) and (min-width: 601px)
+        {
+            .theme
+            {
+                /* background-color: red; */
+                font-size: 200%;
+                margin-left: 20px;
+                margin-right: 20px;
+
+            }
+            .sub-theme
+            {
+                font-size: 60%;
+                font-weight: 500;
+                margin-right: 75px;
+                margin-left: 75px;
+            }
+           
+            #quoteButton
+            {
+                width: auto;
+                height: 30%;
+                background-color: #095953;
+                /* background-color: red; */
+                top: 2px;
+            }
+            #wrapper-1Image
+            {
+                margin-left: 25%;
+                margin-right: 25%;
+                margin-top: 1%;
+                width: 65%;
+                position: relative;
+                left: -36px;
+                top: -20px;
+
+            }
+            #block2
+            {
+                flex: display;
+                justify-content: center;
+            }
+            .block3CardThemes
+            {
+                font-size: 80%; 
+                color: #095953;
+                font-family: Fira Sans !important;
+                font-weight: bold !important;
+                font-size: 110% !important;
+                position: relative;
+                top: 14px;
+                /* background-color: red !important; */
+            } 
+            .block3Sub-theme
+            {
+                color: #547B78;
+                padding-top: 15px;
+                font-family: Poppins;
+                font-size: 80%;
+            } 
+            .block3Images
+            {
+                width:105%;
+               height: 250px;
+            }
+            button
+            {
+                position: relative;
+                top: -15px;
+                color: #FFFFFF;
+            }
+                       
+        }
+        @media screen and (max-width: 991px) and (min-width: 768px)
+        {
+            .theme
+            {
+                /* background-color: blue; */
+                font-size: 250%;
+                margin-left: 30px;
+                margin-right: 30px;
+
+            }
+            .sub-theme
+            {
+                font-size: 70%;
+                font-weight: 300;
+                margin-right: 75px;
+                margin-left: 75px;
+            }
+           
+            button
+            {
+                width: auto;
+                height: 30%;
+                background-color: #095953;
+                color: #FFFFFF;
+            }
+            #wrapper-1Image
+            {
+                margin-left: 25%;
+                margin-right: 25%;
+                margin-top: 2%;
+                width: 65%;
+                max-width: 410px;
+                position: relative;
+                left: 10px;
+                top: -30px;
+
+            }
+            .block3CardThemes
+            {
+                /* background-color: red; */
+                font-size: 150%;
+            }
+            .block3Images
+            {
+                height: 50vh;
+            }
+        }
+        @media screen and (max-width: 1200px) and (min-width: 992px)
+        {
+            #quoteButton
+            {
+                /* background-color: red; */
+                position: relative;
+                top: -138px;
+                left: 488px;
+                width: auto;
+            }
+            
+            .theme
+            {
+                /* background-color: black; */
+                font-size: 340%;
+                margin-left: 20px;
+                margin-right: 20px;
+
+            }
+            .sub-theme
+            {
+                font-size: 85%;
+            }
+            #wrapper-1Image
+            {
+                margin-left: 25%;
+                margin-right: 25%;
+                margin-top: 7%;
+                width: 65%;
+                position: relative;
+                left: -86px;
+                top: -40px;
+                max-width: 450px;
+
+            }
+            .block3Images
+            {
+                height: 60vh;
+            }
+
+        }
+        @media screen and (min-width: 1201px)
+        {
+            .theme
+            {
+                /* background-color: blue; */
+                font-size: 400%;
+                margin-left: 0;
+                margin-right: 0;
+
+            }
+          
+        }
+
+        @media screen and (min-width: 992px) and (max-width: 1167.5px) 
+        {
+            #quoteButton
+            {
+                /* background-color: red; */
+                position: relative;
+                top: 16px;
+                left: -37px;
+                width: auto;
+            }   
+            #wrapper-1Image
+            {
+                position: relative;
+                left: -21px;
+                top: -70px;
+            }         
+        }
+        @media screen and (min-width: 1201px)
+        {
+            /* #quoteButton */
+            /* { */
+                /* background-color: red; */
+                /* position: relative;
+                top: -156px;
+                left:285px;
+
+                width: auto;
+                margin: auto;
+                height: 30%; */
+            /* } */
+            #wrapper-1Image
+            {
+                height: auto;
+                width: 49%;
+                text-align: center;
+                position: relative;
+                left: -50px;
+                top: 3px;
+            }
+        }
+        @media screen and (min-width: 1200.7px) and (max-width: 1240px) 
+        {
+            #quoteButton
+            {
+                /* background-color: red; */
+                position: relative;
+                top: -156px;
+                left:289px;
+                width: auto;
+                margin: auto;
+                height: 30%;
+            }
+        }
+        @media screen and (min-width: 1241px)
+        {
+            #quoteButton
+            {
+                /* background-color: black; */
+                position: relative;
+                top: -156px;
+                left:299px;
+                width: auto;
+                margin: auto;
+                height: 30%;
+            }
+        }
+            
+        
+        #header
+        {
+            background-color: #dcdcdc;
+        }

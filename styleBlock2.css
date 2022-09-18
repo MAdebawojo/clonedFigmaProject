@@ -1,0 +1,40 @@
+
+        .theme2
+        {
+            color: #095953;
+            font-family: Fira Sans !important;
+            font-weight: bold;
+            font-size: 210%;
+            padding: 80px;
+            text-align: center;
+        }
+        .sub-theme2
+        {
+            /* margin-right: 20px;
+            margin-left: 20px; */
+            color: #547B78;
+            font-family: Poppins;
+            text-align: center;
+            position: relative;
+            top: -50px;
+        }
+        .block2CardTitles
+        {
+            color: #095953;
+            font-family: Fira Sans;
+            font-weight: bold;
+            font-size: 25px;
+            padding-top: 25px;
+            padding-bottom: 10px;
+        }
+        .block2Images
+        {
+            width: 25%;
+            position: relative;
+            left: 70px;
+        }
+        .blockSub-theme
+        {
+            color: #547B78;
+            font-family: Poppins;
+        }
